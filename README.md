@@ -3,7 +3,7 @@ CSE 572: Data Mining — Final Project
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project implements a full end-to-end insurance premium modeling pipeline and evaluates how 
 different risk segmentation strategies affect premium stability, fairness, and pricing performance.
@@ -31,7 +31,7 @@ The goal is to determine which segmentation approach yields
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 insurance-project/
@@ -62,7 +62,7 @@ insurance-project/
 
 ---
 
-## 📊 Key Notebooks
+## Key Notebooks
 
 ### **1. 01_manual_risk_premium.ipynb**
 Implements Manual Risk Index v2 and generates rule-based, ideal, and ML premiums.
@@ -75,7 +75,7 @@ Performs delta analysis, migration matrices, and generates comparison plots.
 
 ---
 
-## 📈 Visualizations Included
+## Visualizations Included
 
 - `manual_vs_kmeans_comparison.png`  
 - `premium_pricing_comparison.png`  
@@ -84,7 +84,7 @@ Performs delta analysis, migration matrices, and generates comparison plots.
 
 ---
 
-## 🏗 Installation & Setup
+## Installation & Setup
 
 ```
 git clone https://github.com/rajeshsawant98/cse-572-project-outliers.git
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔍 Summary of Findings
+## Summary of Findings
 
 - Manual segmentation yields clear actuarial structure.  
 - K-Means misclassifies ~75% of customers.  
@@ -103,13 +103,13 @@ pip install -r requirements.txt
 
 ---
 
-## 🔗 Repository Link
+## Repository Link
 Replace USERNAME with your GitHub ID:
 https://github.com/rajeshsawant98/cse-572-project-outliers/
 
 ---
 
-## 👥 Authors
+## Authors
 
 Mrudul Patil
 Rajesh Sawant  
