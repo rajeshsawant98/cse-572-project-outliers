@@ -1,0 +1,56 @@
+PREMIUM PRICING COMPARISON - 4 APPROACHES
+================================================================================
+
+APPROACH DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. Manual->Rule:  Manual Classification + Rule-Based Pricing
+2. KMeans->Rule:  K-Means Classification + Rule-Based Pricing
+3. Manual->ML:    Manual Classification + ML Pricing
+4. KMeans->ML:    K-Means Classification + ML Pricing
+
+OVERALL STATISTICS:
+--------------------------------------------------------------------------------
+       Premium_Manual_RuleBased  Premium_KMeans_RuleBased  Premium_Manual_ML  Premium_KMeans_ML
+count                1200000.00                1200000.00         1200000.00         1200000.00
+mean                    1078.76                    918.86            1229.01             904.05
+std                      454.09                    393.90             306.29             338.25
+min                      247.86                    247.86             505.96             559.87
+25%                      711.56                    597.71             999.30             600.11
+50%                      946.69                    844.59            1001.51             997.73
+75%                     1418.38                   1195.42            1599.16            1001.38
+max                     3017.28                   3017.28            1818.11            1770.97
+
+CORRELATION MATRIX:
+--------------------------------------------------------------------------------
+                          Premium_Manual_RuleBased  Premium_KMeans_RuleBased  Premium_Manual_ML  Premium_KMeans_ML
+Premium_Manual_RuleBased                  1.000000                  0.921487           0.856862           0.526996
+Premium_KMeans_RuleBased                  0.921487                  1.000000           0.720124           0.773206
+Premium_Manual_ML                         0.856862                  0.720124           1.000000           0.486677
+Premium_KMeans_ML                         0.526996                  0.773206           0.486677           1.000000
+
+PREMIUM BY RISK CLASS:
+--------------------------------------------------------------------------------
+
+Manual->Rule:
+                    mean   median         std
+Low Risk      421.128173   409.86   90.801796
+Medium Risk   778.706737   763.74  174.152595
+High Risk    1556.497713  1523.15  302.597340
+
+KMeans->Rule:
+                    mean   median         std
+Low Risk      590.060157   569.25  133.540907
+Medium Risk  1107.311922  1067.34  253.276056
+High Risk    1429.799651  1387.55  382.744908
+
+Manual->ML:
+                    mean       median       std
+Low Risk      600.921070   601.490873  9.079532
+Medium Risk   999.849094   999.712259  3.287521
+High Risk    1600.718927  1600.205671  7.027080
+
+KMeans->ML:
+                    mean       median        std
+Low Risk      599.908120   599.942349   2.203653
+Medium Risk  1000.113090   999.742021   2.393130
+High Risk    1600.982039  1600.903153  11.289514

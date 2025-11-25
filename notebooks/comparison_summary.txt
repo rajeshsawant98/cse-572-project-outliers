@@ -1,0 +1,34 @@
+MANUAL vs K-MEANS RISK CATEGORIZATION COMPARISON
+================================================================================
+
+DISTRIBUTION COMPARISON
+--------------------------------------------------------------------------------
+
+Manual Distribution:
+   Low Risk     :    25,899 (  2.2%)
+   Medium Risk  :   699,257 ( 58.3%)
+   High Risk    :   474,844 ( 39.6%)
+
+K-Means Distribution:
+   Low Risk     :   543,150 ( 45.3%)
+   Medium Risk  :   486,930 ( 40.6%)
+   High Risk    :   169,920 ( 14.2%)
+
+Overall Agreement: 24.73%
+Disagreement: 75.27%
+
+================================================================================
+AVERAGE CHARACTERISTICS
+--------------------------------------------------------------------------------
+
+Manual Method:
+                   Age  Annual Income  Health Score  Credit Score  Previous Claims  Vehicle Age
+Low Risk     29.515964   65387.375926     34.793256    670.791896         0.472462     6.740067
+Medium Risk  38.975811   36163.248233     26.815709    608.669209         0.883715     9.002078
+High Risk    44.922921   26231.036890     23.596041    566.879341         1.178583    10.560399
+
+K-Means Method:
+                   Age  Annual Income  Health Score  Credit Score  Previous Claims  Vehicle Age
+Low Risk     41.334439   32379.505181     25.892958    595.055764         0.746131     9.436741
+Medium Risk  41.144765   32053.377648     25.580289    590.335811         0.495352     9.570069
+High Risk    40.544728   35928.752775     24.819696    593.519518         2.457621     9.994986
